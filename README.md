@@ -2,7 +2,7 @@
 
 1-Clone the repo.
 
-2-Add the missing values of the sender's mail and token (token can be generated in gmail under third party password option) and the recipient(s) email(s) list.
+2-Add the missing values of the sender's mail and token (token can be generated in gmail under  third-party apps and services access option) and the recipient(s) email(s) list.
 
 3-Ooen a terminal in the cloned folder location and execute this command "pip install -r requirements.txt".
 
